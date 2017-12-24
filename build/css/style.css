@@ -2372,9 +2372,22 @@ body, html { height: 100%; }
 .main .page-header { margin-top: 0; }
 
 .form-group { margin-bottom: 25px; }
-.form-group label { margin-bottom: 10px; }
+.form-group label { margin-bottom: 10px; color: #191919; }
 
+.form-control { height: 40px; border-color: #e2e6fb; background-color: #f5f9ff; -webkit-box-shadow: none; box-shadow: none; }
 .form-control:focus { outline: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.navbar-inverse { background-color: #44b0ff; }
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-color: #fff; }
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background-color: #2b96e4; }
+
+.navbar-inverse .navbar-nav > li > a { color: #eee; }
+
+.navbar-inverse .navbar-brand { color: #fff; }
+
+.navbar-form .form-control { height: 34px; }
+
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus { background-color: #44b0ff; }
 
 @media (max-width: 767px) { .inline { font-size: 0; } }
 .inline .form-control, .inline label, .inline .form-group { display: inline-block; vertical-align: middle; }
@@ -2405,7 +2418,8 @@ textarea.form-control { height: 150px; resize: none; }
 
 .btn-danger { margin-left: 15px; }
 
-.footer { position: absolute; right: 0; bottom: 0; left: 0; padding-top: 10px; background-color: #000; text-align: center; z-index: 11; }
+.footer { position: absolute; right: 0; bottom: 0; left: 0; padding-top: 10px; background-color: #44b0ff; text-align: center; z-index: 11; }
+.footer .text-muted { color: #fff; }
 
 
 
