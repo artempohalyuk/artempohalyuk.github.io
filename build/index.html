@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Template</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="theme-color" content="#fff">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" media="all" href="css/style.css" >
+	
+
+</head>
+<body>
+
+<div class="content-wrap">
+	<header class="header">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="./">Картотека</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<form class="navbar-form navbar-right">
+						<input type="text" class="form-control" placeholder="Пошук...">
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="javascript:void(0);">Лікарі</a></li>
+						<li><a href="javascript:void(0);">Послуги</a></li>
+						<li><a href="javascript:void(0);">Контакти</a></li>
+						<li><a href="javascript:void(0);">Допомога</a></li>
+						<li><a href="javascript:void(0);">Особистий кабінет</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+
+
+	<main class="content">
+
+		<div class="container-fluid">
+			<div class="row">
+				<button type="button" class="navbar-toggle collapsed sidebar-btn" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<div id="sidebar" class="col-sm-3 col-md-2 sidebar collapse">
+					<ul class="nav nav-sidebar">
+						<li><a href="javascript:void(0);">Наша клініка</a></li>
+						<li><a href="javascript:void(0);">Ціни</a></li>
+						<li><a href="javascript:void(0);">Картотека пацієнтів</a></li>
+						<li class="active"><a href="javascript:void(0);">Онлайн запис</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+					<h1 class="page-header">Новий клієнт</h1>
+
+					<form action="#">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="surname">Прізвище</label>
+									<input id="surname" class="form-control" type="text" placeholder="Прізвище">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="name">Ім'я</label>
+									<input id="name" class="form-control" type="text" placeholder="Ім'я">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="patronymic">По-батькові</label>
+									<input id="patronymic" class="form-control" type="text" placeholder="По-батькові">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-5 col-md-4 inline">
+								<h5>Стать</h5>
+
+								<div class="form-group">
+									<label for="male">Чол.</label>
+									<input id="male" class="form-control" type="radio" name="radio">
+								</div>
+
+								<div class="form-group">
+									<label for="female">Жін.</label>
+									<input id="female" class="form-control" type="radio" name="radio">
+								</div>
+							</div>
+
+							<div class="col-sm-7 col-md-5 inline inline_date">
+								<h5>Дата народження</h5>
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="Число" name="date">
+								</div>
+
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="Місяць" name="month">
+								</div>
+
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="Рік" name="year">
+								</div>
+							</div>
+						</div>
+
+						<div class="row inline inline_address">
+							<div class="col-sm-12 col-md-10">
+								<h5>Адреса проживання</h5>
+								<div class="form-group">
+									<input class="form-control city" type="text" placeholder="Місто" name="city">
+								</div>
+
+								<div class="form-group">
+									<input class="form-control street" type="text" placeholder="Вулиця" name="street">
+								</div>
+
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="Будинок" name="house">
+								</div>
+
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="Квартира" name="flat">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-10 col-md-5">
+								<div class="form-group">
+									<label for="phone">Контактний телефон</label>
+									<input id="phone" class="form-control" type="tel" name="phone" placeholder="Контактний телефон">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-10 col-md-5">
+								<div class="form-group">
+									<label for="phone">Контактна особа</label>
+									<input id="phone" class="form-control" type="text" name="contactPerson" placeholder="Контактна особа">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-10 col-md-5">
+								<div class="form-group">
+									<label for="phone2">Номер телефону контактної особи</label>
+									<input id="phone2" class="form-control" type="tel" name="contactPersonPhone" placeholder="Номер телефону">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-10 col-md-9">
+								<div class="form-group">
+									<label for="msg">Діагноз</label>
+									<textarea class="form-control" name="msg" id="msg" placeholder="Діагноз"></textarea>
+								</div>
+							</div>
+						</div>
+
+						<button type="submit" class="btn btn-primary btn-lg">Додати</button>
+
+						<button type="submit" class="btn btn-danger btn-lg">Відміна</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">Копірайт</p>
+		</div>
+	</footer>
+	
+
+
+
+</div>
+
+<script src="js/app.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWzmoqc5O2wE1FyRyJp_hvdQKTqY6ZCeA">
+</script>
+
+
+</body>
+</html>
