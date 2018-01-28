@@ -12333,10 +12333,10 @@ $( document ).ready( function() {
   function initMap() {
     var map = new google.maps.Map( document.getElementById( 'mapInit' ), {
       zoom: 18,
-      center: { lat: 55.546122, lng: 37.5565933 }
+      center: { lat: 55.546122, lng: 37.5586933 }
     });
 
-    var image = '../img/pin-map.png';
+    var image = 'img/pin-map.png';
     var marker = new google.maps.Marker({
       position: { lat: 55.546122, lng: 37.5586933 },
       map: map,
