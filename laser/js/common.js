@@ -37,7 +37,7 @@ $( document ).ready( function() {
       }
     });
 
-  $( '.nav' ).mouseleave( function() {
+  $( '.nav__list' ).mouseleave( function() {
     $( hoverLine ).fadeOut( 0 );
   });
 
