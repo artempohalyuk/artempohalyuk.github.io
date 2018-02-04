@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#fff">
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" media="all" href="css/style.css" >
+  
+
+</head>
+<body>
+
+<div class="content-wrap">
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="header__content">
+          <div class="header__col header__col_logo">
+            <a class="header-logo" href="./">
+              <img class="header-logo__img" src="img/logo.png" alt="Логотип">
+            </a>
+          </div>
+  
+          <div class="header__col header__col_info">
+            <div class="header-info">
+              <p class="header-info__item header-info__item_address">
+                <strong>г. Москва</strong>
+  
+                ул. Скобелевская д.25, корп.2 <a class="custom-link js-scroll-target" href="#mapInit">на карте</a>
+              </p>
+  
+              <p class="header-info__item header-info__item_worktime">
+                Без выходных <strong>9:00 до 21:00</strong>
+              </p>
+            </div>
+          </div>
+  
+          <div class="header__col">
+            <div class="header-btns">
+              <a class="btn btn-default" href="#feedback-modal" data-toggle="modal">
+                Записаться на прием
+              </a>
+  
+              <a class="btn" href="#feedback-modal" data-toggle="modal">
+                Перезвоните мне
+              </a>
+            </div>
+          </div>
+  
+          <div class="header__col header__col_feedback">
+            <div class="header-feedback">
+              <a class="header-feedback__link" href="7(495)717-10-18"><span class="icon icon-phone"></span>+ 7 (495) <strong>717-10-18</strong></a>
+              <a class="header-feedback__link" href="7(495)717-09-54">+ 7 (495) <strong>717-09-54</strong></a>
+              <a class="header-feedback__link" href="8 903 509-64-69">8 903 <strong>509-64-69</strong></a>
+              <p class="header-feedback__messengers">
+                <a class="header-feedback__link icon-whatsapp" href="javascript:void(0)"></a>
+                <a class="header-feedback__link icon-viber" href="javascript:void(0)"></a>
+                (WhatsApp, Viber)
+              </p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="nav-wrap">
+      <nav class="nav">
+        <div class="hover-line"></div>
+  
+        <div class="container">
+          <div class="row">
+            <a href="#menu" class="nav-btn icon-menu js-show-menu"></a>
+  
+            <div id="menu" class="nav__menu">
+              <ul class="nav__list list-unstyled">
+                <li class="nav__item dropdown active">
+                  <a class="nav__link" href="about.html" data-toggle="dropdown">О центре</a>
+  
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item">
+                      <a class="dropdown-menu__link" href="about.html">О нас</a>
+                    </li>
+  
+                    <li class="dropdown-menu__item">
+                      <a class="dropdown-menu__link" href="">Видео</a>
+                    </li>
+  
+                    <li class="dropdown-menu__item">
+                      <a class="dropdown-menu__link" href="">Новости</a>
+                    </li>
+  
+                    <li class="dropdown-menu__item">
+                      <a class="dropdown-menu__link" href="comments.html">Отзывы</a>
+                    </li>
+  
+                    <li class="dropdown-menu__item">
+                      <a class="dropdown-menu__link" href="">Вакансии</a>
+                    </li>
+  
+                    <li class="dropdown-menu__item">
+                      <a class="dropdown-menu__link" href="">Стационар</a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li class="nav__item dropdown">
+                  <a class="nav__link" href="javascript:void(0)" data-toggle="dropdown">Направления</a>
+  
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-menu__item dropdown">
+                      <a class="dropdown-menu__link" href="">Иновационная онкология и фотодинамическая терапия</a>
+  
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="about.html">О нас</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Видео</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Новости</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="comments.html">Отзывы</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Вакансии</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Стационар</a>
+                        </li>
+                      </ul>
+                    </li>
+  
+                    <li class="dropdown-menu__item dropdown">
+                      <a class="dropdown-menu__link" href="">Поликлиническая или амбулаторная медицина</a>
+  
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="about.html">О нас</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Видео</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Новости</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="comments.html">Отзывы</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Вакансии</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Стационар</a>
+                        </li>
+                      </ul>
+                    </li>
+  
+                    <li class="dropdown-menu__item dropdown">
+                      <a class="dropdown-menu__link" href="">Эстетическая медицина</a>
+  
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="about.html">О нас</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Видео</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Новости</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="comments.html">Отзывы</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Вакансии</a>
+                        </li>
+  
+                        <li class="dropdown-menu__item">
+                          <a class="dropdown-menu__link" href="">Стационар</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li class="nav__item">
+                  <a class="nav__link" href="specialists-catalog.html">Врачи</a>
+                </li>
+  
+                <li class="nav__item">
+                  <a class="nav__link" href="price.html">Цены</a>
+                </li>
+  
+                <li class="nav__item">
+                  <a class="nav__link" href="gallery.html">Фотогалерея</a>
+                </li>
+  
+                <li class="nav__item">
+                  <a class="nav__link" href="">Акции</a>
+                </li>
+  
+                <li class="nav__item">
+                  <a class="nav__link" href="">Иногородним пациентам</a>
+                </li>
+  
+                <li class="nav__item">
+                  <a class="nav__link" href="">Контакты</a>
+                </li>
+              </ul>
+            </div>
+  
+  
+            <div class="search">
+              <button class="search__btn icon-search js-show-search" type="button" form="search-form"></button>
+              <form id="search-form" class="search__form" action="#" method="post">
+                <input class="search__field form-control" type="search" name="search" placeholder="Поиск">
+  
+                <span class="search__close icon-close js-hide-search"></span>
+              </form>
+            </div>
+  
+            <div class="lang">
+              <button id="langDropdown" class="lang__current" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ru</button>
+  
+              <ul class="lang__list dropdown-menu list-unstyled" aria-labelledby="langDropdown">
+                <li class="lang__item js-lang-select" data-val="Ru">
+                  Русский
+                </li>
+  
+                <li class="lang__item js-lang-select" data-val="En">
+                  English
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  
+  
+  </header>
+  
+
+  <div class="gallery-page page" data-parallax="scroll" data-image-src="img/parallax.png">
+
+    <main class="content">
+
+      <section class="intro">
+        <div class="container">
+          <h1 class="title">Фотогалерея</h1>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container">
+          <div class="gallery-type">
+            <h2 class="gallery-type__title">Наш центр</h2>
+
+            <div class="gallery-type__items mobile-slider js-mobile-slider" data-slick='{"responsive": [{"breakpoint": 767, "settings": {"slidesToShow": 3}},{"breakpoint": 580, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}] }'>
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/1.jpg">
+                <img class="gallery-type__img" src="img/gallery/1.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/2.jpg">
+                <img class="gallery-type__img" src="img/gallery/2.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/3.jpg">
+                <img class="gallery-type__img" src="img/gallery/3.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/4.jpg">
+                <img class="gallery-type__img" src="img/gallery/4.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/5.jpg">
+                <img class="gallery-type__img" src="img/gallery/5.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/6.jpg">
+                <img class="gallery-type__img" src="img/gallery/6.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/7.jpg">
+                <img class="gallery-type__img" src="img/gallery/7.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/8.jpg">
+                <img class="gallery-type__img" src="img/gallery/8.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/9.jpg">
+                <img class="gallery-type__img" src="img/gallery/9.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/10.jpg">
+                <img class="gallery-type__img" src="img/gallery/10.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/11.jpg">
+                <img class="gallery-type__img" src="img/gallery/11.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery2" href="img/gallery-popup/12.jpg">
+                <img class="gallery-type__img" src="img/gallery/12.png" alt="">
+              </a>
+            </div>
+
+            <div class="text-center">
+              <a class="custom-link" href="javascript:void(0)">Показать еще</a>
+            </div>
+          </div>
+
+          <div class="gallery-type">
+            <h2 class="gallery-type__title">Оборудование</h2>
+
+            <div class="gallery-type__items mobile-slider js-mobile-slider" data-slick='{"responsive": [{"breakpoint": 767, "settings": {"slidesToShow": 3}},{"breakpoint": 580, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}] }'>
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/13.jpg">
+                <img class="gallery-type__img" src="img/gallery/13.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/14.jpg">
+                <img class="gallery-type__img" src="img/gallery/14.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/15.jpg">
+                <img class="gallery-type__img" src="img/gallery/15.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/16.jpg">
+                <img class="gallery-type__img" src="img/gallery/16.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/17.jpg">
+                <img class="gallery-type__img" src="img/gallery/17.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/18.jpg">
+                <img class="gallery-type__img" src="img/gallery/18.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/19.jpg">
+                <img class="gallery-type__img" src="img/gallery/19.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery3" href="img/gallery-popup/20.jpg">
+                <img class="gallery-type__img" src="img/gallery/20.png" alt="">
+              </a>
+
+            </div>
+
+            <div class="text-center">
+              <a class="custom-link" href="javascript:void(0)">Показать еще</a>
+            </div>
+          </div>
+
+          <div class="gallery-type">
+            <h2 class="gallery-type__title">Врачи за работой</h2>
+
+            <div class="gallery-type__items mobile-slider js-mobile-slider" data-slick='{"responsive": [{"breakpoint": 767, "settings": {"slidesToShow": 3}},{"breakpoint": 580, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}] }'>
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/21.jpg">
+                <img class="gallery-type__img" src="img/gallery/21.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/22.jpg">
+                <img class="gallery-type__img" src="img/gallery/22.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/23.jpg">
+                <img class="gallery-type__img" src="img/gallery/23.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/24.jpg">
+                <img class="gallery-type__img" src="img/gallery/24.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/25.jpg">
+                <img class="gallery-type__img" src="img/gallery/25.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/26.jpg">
+                <img class="gallery-type__img" src="img/gallery/26.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/27.jpg">
+                <img class="gallery-type__img" src="img/gallery/27.png" alt="">
+              </a>
+
+              <a class="gallery-type__item" data-fancybox="gallery4" href="img/gallery-popup/28.jpg">
+                <img class="gallery-type__img" src="img/gallery/28.png" alt="">
+              </a>
+
+            </div>
+
+            <div class="text-center">
+              <a class="custom-link" href="javascript:void(0)">Показать еще</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <span class="decor"></span>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-2">
+              <h2 class="feedback__title title">Записаться на прием</h2>
+
+              <form class="feedback__form" action="#" method="post">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="name">Ваше имя</label>
+                    <input id="name" class="form-control" type="text" name="name">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input id="email" class="form-control" type="email" name="email">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="phone">Ваш номер телефона</label>
+                    <input id="phone" class="form-control" type="tel" name="phone">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="specialists">Специальность врача</label>
+                    <div class="custom-select">
+                      <select id="specialists" class="selectpicker" data-title=" " data-width="100%" name="specialists">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="time">Желаемое время</label>
+                    <input id="time" class="form-control" type="text" name="time">
+                  </div>
+
+                  <div class="form-group">
+                    <button class="feedback__submit btn btn-default" type="submit">Записаться на прием </button>
+                  </div>
+                </div>
+
+                <div class="custom-checkbox">
+                  <input id="check1" class="custom-checkbox__field" type="checkbox" name="checkbox">
+
+                  <label class="custom-checkbox__label" for="check1">
+                    Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет.  На обработку моих персональных данных в соответствии с федеральным законом РФ от 27.07.2006 № 152-ФЗ “О персональных данных“
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="map">
+        <div id="mapInit" class="map-block"></div>
+      </section>
+
+
+
+    </main>
+
+    <footer class="footer">
+    	<div class="container">
+        <div class="row">
+          <div class="footer-content">
+            <div class="footer__col footer__col_logo">
+              <a href="./" class="footer-logo">
+                <img class="footer-logo__img" src="img/footer-logo.png" alt="Логотип">
+                <img class="footer-logo__img footer-logo__img_mobile" src="img/footer-logo-mobile.png" alt="Логотип">
+              </a>
+            </div>
+            <div class="footer__col footer__col_menu">
+              <h4 class="footer__title">меню</h4>
+    
+              <div class="footer-item">
+                <ul class="footer-menu list-unstyled">
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">О центре</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Направления</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Врачи</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Цены</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Фотогалерея</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Акции</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Отзывы</a>
+                  </li>
+                </ul>
+    
+                <ul class="footer-menu list-unstyled">
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Видео</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Стационар</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Вакансии</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Контакты</a>
+                  </li>
+    
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="javascript:void(0)">Информация для иностранных и иногородних пациентов</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col footer__col_contacts">
+              <h4 class="footer__title">Контакты</h4>
+    
+              <div class="footer-item collapse-content">
+                <p class="footer-address">
+                  <strong>г. Москва</strong>
+                  ул. Скобелевская д.25, корп.2
+                </p>
+    
+                <div class="footer-feedback">
+                  <a class="footer-feedback__link" href="7(495)717-10-18"><span class="icon icon-phone"></span>+ 7 (495) <strong>717-10-18</strong></a>
+                  <a class="footer-feedback__link" href="7(495)717-09-54">+ 7 (495) <strong>717-09-54</strong></a>
+                  <a class="footer-feedback__link" href="8 903 509-64-69">8 903 <strong>509-64-69</strong></a>
+                  <p class="footer-feedback__messengers">
+                    <a class="footer-feedback__link icon-whatsapp" href="javascript:void(0)"></a>
+                    <a class="footer-feedback__link icon-viber" href="javascript:void(0)"></a>
+                    (WhatsApp, Viber)
+                  </p>
+                </div>
+    
+                <p class="footer-worktime">
+                  Без выходных <strong>9:00 до 21:00</strong>
+                </p>
+              </div>
+            </div>
+            <div class="footer__col footer__col_info">
+              <h4 class="footer__title js-collapse">Информация</h4>
+    
+              <div class="footer-item collapse-content">
+                <div class="footer-btns">
+                  <a class="btn btn-info" href="#feedback-modal" data-toggle="modal">
+                    Записаться на прием
+                  </a>
+    
+                  <a class="btn btn-info" href="#feedback-modal" data-toggle="modal">
+                    заказать звонок
+                  </a>
+                </div>
+    
+                <ul class="social list list-unstyled">
+                  <li class="social__item">
+                    <a class="social__link icon-vk" href="javascript:void(0)"></a>
+                  </li>
+    
+                  <li class="social__item">
+                    <a class="social__link icon-fb" href="javascript:void(0)"></a>
+                  </li>
+    
+                  <li class="social__item">
+                    <a class="social__link icon-inst" href="javascript:void(0)"></a>
+                  </li>
+    
+                  <li class="social__item">
+                    <a class="social__link icon-ok" href="javascript:void(0)"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <p class="copyright">&#169; Медицинский центр высоких технологий «ЛазерВита». Все права защищены  | <a class="copyright__link" href="">Created by ПоискПро</a></p>
+    	</div>
+    </footer>
+    
+    <!-- modal -->
+    
+    <div class="modal fade" id="feedback-modal">
+      <div class="modal-dialog">
+        <button type="button" class="close icon-close" data-dismiss="modal"></button>
+    
+        <div class="modal-content">
+          <h2 class="modal-title title">Записаться на прием</h2>
+    
+          <form class="modal__form" action="#" method="post">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">Ваше имя</label>
+                <input id="name" class="form-control" type="text" name="name">
+              </div>
+    
+              <div class="form-group">
+                <label class="form-label" for="email">E-mail</label>
+                <input id="email" class="form-control" type="email" name="email">
+              </div>
+            </div>
+    
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="phone">Ваш номер телефона</label>
+                <input id="phone" class="form-control" type="tel" name="phone">
+              </div>
+    
+              <div class="form-group">
+                <label class="form-label" for="specialistsModal">Специальность врача</label>
+                <div class="custom-select">
+                  <select id="specialistsModal" class="selectpicker" data-title=" " data-width="100%" name="specialistsModal">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+    
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="time">Желаемое время</label>
+                <input id="time" class="form-control" type="text" name="time">
+              </div>
+    
+              <div class="form-group">
+                <button class="btn btn-default modal__submit" type="submit">Записаться на прием </button>
+              </div>
+            </div>
+    
+            <div class="custom-checkbox">
+              <input id="checkModal" class="custom-checkbox__field" type="checkbox" name="checkModal">
+    
+              <label class="custom-checkbox__label" for="checkModal">
+                Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет.  На обработку моих персональных данных в соответствии с федеральным законом РФ от 27.07.2006 № 152-ФЗ “О персональных данных“
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <button class="scroll-top js-scroll-top" type="button"></button>
+    
+  </div>
+
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/common.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWzmoqc5O2wE1FyRyJp_hvdQKTqY6ZCeA">
+</script>
+
+
+</body>
+</html>
